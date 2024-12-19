@@ -17,12 +17,12 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/username/project-name.git
+   git clone https://github.com/Infinity-CHL/devNotes.git
    ```
 
 2. Перейдите в директорию проекта:
    ```bash
-   cd project-name
+   cd devNotes
    ```
 
 3. Установите зависимости:
@@ -91,5 +91,5 @@ yarn preview
 
 ## Обратная связь
 
-Если у вас есть вопросы или предложения, создайте [issue](https://github.com/username/project-name/issues) или напишите на email: example@example.com.
+Если у вас есть вопросы или предложения, создайте [issue](https://github.com/Infinity-CHL/devNotes/issues) или напишите на email: example@example.com.
 
