@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Vite build files
+dist/
+*.zip
+
+# IDE files
+.idea/
+.vscode/
+
+# Testing files
+*.spec.js
+*.test.js
+coverage/
+
+# Documentation files
+docs/
+
+# Environment variables
+.env
+.env.production
+
+# Editor preferences
+.editorconfig
+.prettierignore

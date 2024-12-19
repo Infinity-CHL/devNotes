@@ -1,5 +1,95 @@
-# Vue 3 + Vite
+# Frontend-проект на Vite и Vue 3
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Описание
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Этот проект создан с использованием **Vite** для быстрой сборки, **Vue 3** как основного фреймворка для разработки пользовательского интерфейса и **Git** для управления версионностью кода.
+
+## Установка и запуск
+
+### Требования
+
+Для работы с проектом убедитесь, что у вас установлены следующие инструменты:
+
+- **Node.js** (рекомендуемая версия: >= 16)
+- **npm** или **yarn** (для управления зависимостями)
+
+### Установка
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/username/project-name.git
+   ```
+
+2. Перейдите в директорию проекта:
+   ```bash
+   cd project-name
+   ```
+
+3. Установите зависимости:
+   ```bash
+   npm install
+   ```
+   или, если вы используете yarn:
+   ```bash
+   yarn install
+   ```
+
+### Запуск в режиме разработки
+
+Для запуска локального сервера разработки выполните:
+```bash
+npm run dev
+```
+или, если вы используете yarn:
+```bash
+yarn dev
+```
+
+### Сборка для продакшена
+
+Для создания оптимизированной сборки выполните:
+```bash
+npm run build
+```
+или, если вы используете yarn:
+```bash
+yarn build
+```
+
+Собранные файлы будут находиться в папке `dist`.
+
+### Предварительный просмотр собранного проекта
+
+Для локального просмотра собранной версии выполните:
+```bash
+npm run preview
+```
+или, если вы используете yarn:
+```bash
+yarn preview
+```
+
+## Структура проекта
+
+- `src/` — исходный код проекта.
+- `public/` — статические файлы.
+- `dist/` — директория с финальной сборкой.
+- `package.json` — конфигурационный файл для npm-зависимостей.
+- `vite.config.js` — файл настройки Vite.
+
+## Используемые технологии
+
+- **Vite** — инструмент для быстрой сборки.
+- **Vue 3** — прогрессивный фреймворк для создания пользовательских интерфейсов.
+- **Git** — система контроля версий.
+
+## Полезные команды
+
+- `npm run dev` — запуск проекта в режиме разработки.
+- `npm run build` — сборка проекта для продакшена.
+- `npm run preview` — локальный просмотр собранной версии.
+
+## Обратная связь
+
+Если у вас есть вопросы или предложения, создайте [issue](https://github.com/username/project-name/issues) или напишите на email: example@example.com.
+
